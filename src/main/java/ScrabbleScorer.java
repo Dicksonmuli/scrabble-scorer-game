@@ -20,5 +20,15 @@ public class ScrabbleScorer {
     } else {
              return 1;
     }
-}
+
+
+		}
+		public int getScore(String word) {
+			int sum = 0;
+			for(int i = 0; i <word.length();i++) {
+            //look up the current char in the alphabet and add it's value to sum
+            sum += word.get(word.charAt(i));
+        }
+        return sum;
+		}
 }

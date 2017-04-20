@@ -1,5 +1,14 @@
+import java.io.Console;
+
+
 public class App{
 	public static void main(String[] args) {
-		System.out.println("This is my scrabble game");
+		Console myConsole = System.console();
+
+		System.out.println("Enter a word: ");
+		String word = myConsole.readLine();
+
+		
+
 	}
 }
