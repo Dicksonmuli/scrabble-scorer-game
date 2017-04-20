@@ -13,10 +13,10 @@ public class ScrabbleScorerTest {
 }
 
 
-	// @Test
-	// public void calculateScore_returnScoreForSingleLetter_2(){
-	// 	ScrabbleScorer testScrabble = new ScrabbleScorer();
-	// 	Integer expected = 1;
-	// 	assertEquals(expected, testScrabble.calculateScore(""));
-	// }
+	@Test
+	public void calculateScore_returnScoreForSingleLetter_2(){
+		ScrabbleScorer testScrabble = new ScrabbleScorer();
+		Integer expected = 1;
+		assertEquals(expected, testScrabble.calculateScore(""));
+	}
 }
